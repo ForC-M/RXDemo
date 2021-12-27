@@ -19,6 +19,8 @@
 		998B7F64275E656A00FDD5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998B7F62275E656A00FDD5E5 /* Main.storyboard */; };
 		998B7F66275E656C00FDD5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998B7F65275E656C00FDD5E5 /* Assets.xcassets */; };
 		998B7F69275E656C00FDD5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998B7F67275E656C00FDD5E5 /* LaunchScreen.storyboard */; };
+		99ED535D2776FE7200573E2B /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED535C2776FE7200573E2B /* Observer.swift */; };
+		99ED535F2777249200573E2B /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ED535E2777249200573E2B /* Subject.swift */; };
 		C6CA927A2E14E7BF5EB133EF /* libPods-rxDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2CB228943792D3C6C07D95 /* libPods-rxDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		998B7F65275E656C00FDD5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998B7F68275E656C00FDD5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		998B7F6A275E656C00FDD5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ED535C2776FE7200573E2B /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		99ED535E2777249200573E2B /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		9C2CB228943792D3C6C07D95 /* libPods-rxDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rxDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBD800ACEBF3F4DE8315A37 /* Pods-rxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxDemo.debug.xcconfig"; path = "Target Support Files/Pods-rxDemo/Pods-rxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +127,8 @@
 				993561D027722DBC008B86C9 /* MaybeViewController.swift */,
 				9904CEBC27737FB4007013FB /* Signal_Driver.swift */,
 				9904CEBE277381A3007013FB /* Hot_Cold.swift */,
+				99ED535C2776FE7200573E2B /* Observer.swift */,
+				99ED535E2777249200573E2B /* Subject.swift */,
 			);
 			path = Obervable;
 			sourceTree = "<group>";
@@ -243,8 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				998B7F61275E656A00FDD5E5 /* ViewController.swift in Sources */,
+				99ED535D2776FE7200573E2B /* Observer.swift in Sources */,
 				993561D127722DBC008B86C9 /* MaybeViewController.swift in Sources */,
 				993561CF27722BB2008B86C9 /* CompletableViewController.swift in Sources */,
+				99ED535F2777249200573E2B /* Subject.swift in Sources */,
 				998B7F5D275E656A00FDD5E5 /* AppDelegate.swift in Sources */,
 				995513E22762567000ACF33D /* SignleViewController.swift in Sources */,
 				9904CEBF277381A3007013FB /* Hot_Cold.swift in Sources */,

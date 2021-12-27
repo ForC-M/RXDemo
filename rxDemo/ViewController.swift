@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     let data = [["Observable", ObservableViewController()],
                 ["Observable-single", SignleViewController()],
                 ["Hot_Cold 共享附加作用（冷热信号）", Hot_Cold()],
-                
+                ["Observer any&binder 监听者", Observer()],
+                ["Subject 雌雄同体", Subject()]
     ]
     
     
