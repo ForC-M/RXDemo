@@ -13,6 +13,7 @@ class SignleViewController: UIViewController {
             let arc2 =  Int(arc4random()%255)
             let arc3 =  Int(arc4random()%255)
             
+            
             sg(.success(UIColor(red: CGFloat(arc1)/255.0, green: CGFloat(arc2)/255.0, blue: CGFloat(arc3)/255.0, alpha: 1)))
 
             return Disposables.create {

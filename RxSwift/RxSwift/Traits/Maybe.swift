@@ -171,6 +171,7 @@ extension PrimitiveSequenceType where Trait == MaybeTrait {
     }
 }
 
+#warning ("TODO 为什么纸包装了一部分操作")
 extension PrimitiveSequenceType where Trait == MaybeTrait {
     /**
      Invokes an action for each event in the observable sequence, and propagates all observer messages through the result sequence.
